@@ -56,3 +56,6 @@ asm_main:
 		call print_int
 		call print_nl
 	loop LP4
+
+	leave
+	ret

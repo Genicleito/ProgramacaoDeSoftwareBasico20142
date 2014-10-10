@@ -67,11 +67,12 @@ asm_main:
 		mov	ecx,	5
 		mov	esi,	vetor
 		call	print_nl
-	Repetir:
-		lodsd		
-		call	print_int
-		call	print_nl
-	loop	Repetir
+	
+		Repetir:
+			lodsd		
+			call	print_int
+			call	print_nl
+		loop	Repetir
 
 	leave
 	ret

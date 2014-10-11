@@ -1,4 +1,4 @@
-ProgramacaoDeSoftwareBasico20142
+Programação De Software Básico 2014.2
 ================================
 
-Programação de Software Básico 2014.2
+Programação em Nasm - Assembly

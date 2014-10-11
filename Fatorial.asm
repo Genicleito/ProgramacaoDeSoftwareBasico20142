@@ -17,7 +17,7 @@ asm_main:
 	call	print_string
 
 	call	read_int
-	
+
 	mov	ecx,	eax
 	dec	ecx
 

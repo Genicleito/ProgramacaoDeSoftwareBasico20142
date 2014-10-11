@@ -1,5 +1,6 @@
 ;Genicleito Gonçalves
-;Programa que une em apenas um registrador o resultado da multiplicação de dois numeros grandes cujo resultado ultrapasse um registrador
+;Programa que une em apenas um registrador o resultado da multiplicação de dois numeros grandes
+; cujo resultado ultrapasse um registrador
 
 %include "asm_io.inc"
 

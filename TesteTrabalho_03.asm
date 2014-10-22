@@ -23,10 +23,10 @@ asm_main:
 	mov	eax,	msg1
 	call	print_string
 	
-	mov	ecx, 20
-	lp:
-		call read_char
-	loop lp
+	;mov	ecx, 20		;Verificar se o maluco digitou o 0 que indica o final da expressão
+	;lp:
+	;	call read_char
+	;loop lp
 
 	call	print_nl
 	leave

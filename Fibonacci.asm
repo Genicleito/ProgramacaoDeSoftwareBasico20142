@@ -20,6 +20,22 @@ asm_main:
                 mov     ebx,    [ebp + 8]
                 cmp     ebx,    1
                 jle     Fim
+		jmp	rec
+
+
+		rec:
+			sub	ebx,	2
+			
+			push	ebx
+			call	fibonacci
+			
+			pop	ebx
+			
+			MenosUm:
+			        mov     ecx,    eax
+			        sub     ecx,    1
+			        push    eax
+			        call    fibonacci
                 
                 Fim:
                         pop     ebp
@@ -29,6 +45,6 @@ asm_main:
 Sair:
         pop     eax
         call    print_int
-        
+call	print_nl
 leave                     
 ret

@@ -47,5 +47,3 @@ asm_main:
 call	print_nl
 leave                     
 ret
-
-
